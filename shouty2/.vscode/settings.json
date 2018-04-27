@@ -1,0 +1,22 @@
+
+  {
+    "cucumberautocomplete.steps": [
+        "src/test/features/step_definitions/*.js",
+        "node_modules/qa-lib/src/step_definitions/*.js"
+    ],
+    "cucumberautocomplete.syncfeatures": "src/test/resources/**/*.feature",
+    "cucumberautocomplete.strictGherkinCompletion": true,
+    "cucumberautocomplete.smartSnippets": true,
+    "cucumberautocomplete.stepsInvariants": true,
+    "cucumberautocomplete.customParameters": [
+        {
+            "parameter":"{ab}",
+            "value":"(a|b)"
+        }
+    ],
+    "editor.quickSuggestions": {
+        "comments": false,
+        "strings": true,
+        "other": true
+    }
+}
